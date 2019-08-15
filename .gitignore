@@ -1,0 +1,5 @@
+# MyFirstFlask/.gitignore
+.idea
+venv
+*.pyc
+__pycache__
