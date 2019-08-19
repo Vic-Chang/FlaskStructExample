@@ -20,7 +20,7 @@ Website contain a index page with bootstrap4 (flask-bootstrap4 package) and a We
 
 And this project will publish to Heroku service.([Flask Demo])
 
-## Some note
+## Some notes
 * manage.py > Use package `flask_script`. You can use shell to run the web and use command to execute some fuction. 
 * procfile > This is a required file for Heroku, use for build the Heroku's container "dynos".
 
