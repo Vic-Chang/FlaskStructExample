@@ -10,6 +10,11 @@ Flask 結構以功能導向為主(Functional base structure)，建立一個使�
 * manage.py > 使用 flask_script package ，可以使用shell控制網站啟動、下commad執行fuction。
 * procfile > Heroku 網站使用文件，建立heroku container "dynos"
 
+## 其他說明
+使用 `python manage.py runserver` 啟動伺服器。
+
+或是可以使用 `python manage.py api reset` or `python manage.py test` 進行 command 管理。
+
 ***
 
 # FlaskStructExample
@@ -23,5 +28,9 @@ And this project will publish to Heroku service.([Flask Demo])
 ## Some notes
 * manage.py > Use package `flask_script`. You can use shell to run the web and use command to execute some fuction. 
 * procfile > This is a required file for Heroku, use for build the Heroku's container "dynos".
+
+Use `python manage.py runserver` to run the server. 
+
+And use shell command to adjust server like `python manage.py api reset` or `python manage.py test` (not implement yet)
 
 [Flask Demo]: https://my-first-python-flask.herokuapp.com/
